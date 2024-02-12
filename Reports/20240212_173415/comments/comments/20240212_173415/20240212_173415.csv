@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+comments,,,,12-02-2024 17:34:20,12-02-2024 17:34:33,12.836s,PASSED
+,,,,,,,
+Test Cases/comments/DEL ID 9,,,,12-02-2024 17:34:21,12-02-2024 17:34:27,6.561s,PASSED
+"sendRequestAndVerify(findTestObject(""comments/DEL ID 9""))",,,,12-02-2024 17:34:21,12-02-2024 17:34:25,3.823s,PASSED
+Video,,,,12-02-2024 17:34:27,12-02-2024 17:34:27,0.001s,PASSED
+,,,,,,,
+Test Cases/comments/GET ID 2,,,,12-02-2024 17:34:27,12-02-2024 17:34:30,2.659s,PASSED
+"response = sendRequestAndVerify(findTestObject(""comments/GET ID 2""))",,,,12-02-2024 17:34:27,12-02-2024 17:34:28,0.306s,PASSED
+"verifyElementPropertyValue(response, ""name"", ""quo vero reiciendis velit similique earum"")",,,,12-02-2024 17:34:28,12-02-2024 17:34:28,0.141s,PASSED
+Video,,,,12-02-2024 17:34:30,12-02-2024 17:34:30,0.001s,PASSED
+,,,,,,,
+Test Cases/comments/POST ID 2,,,,12-02-2024 17:34:30,12-02-2024 17:34:33,3.310s,PASSED
+"sendRequestAndVerify(findTestObject(""comments/POST ID 2"", [""name"":""clae
+"", ""email"":""clae@gmail.com"", ""body"":""ini body""]))",,,,12-02-2024 17:34:30,12-02-2024 17:34:31,1.120s,PASSED
+Video,,,,12-02-2024 17:34:33,12-02-2024 17:34:33,0.002s,PASSED

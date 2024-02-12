@@ -1,0 +1,12 @@
+1
+00:00:00,386 --> 00:00:04,083
+1. sendRequestAndVerify(findTestObject("comments/DEL ID 9"))
+
+2
+00:00:04,092 --> 00:00:04,096
+1. request = getInstance().getCurrentRequest()
+
+3
+00:00:04,097 --> 00:00:04,231
+5. response = getInstance().getCurrentResponse()
+

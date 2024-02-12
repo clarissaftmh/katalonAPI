@@ -1,0 +1,16 @@
+1
+00:00:00,092 --> 00:00:00,389
+1. response = sendRequestAndVerify(findTestObject("comments/GET ID 2"))
+
+2
+00:00:00,390 --> 00:00:00,391
+1. request = getInstance().getCurrentRequest()
+
+3
+00:00:00,392 --> 00:00:00,398
+5. response = getInstance().getCurrentResponse()
+
+4
+00:00:00,399 --> 00:00:00,543
+5. verifyElementPropertyValue(response, "name", "quo vero reiciendis velit similique earum")
+

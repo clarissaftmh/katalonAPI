@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="posts" time="12.82" tests="3" failures="0" errors="0">
+   <testsuite name="posts" tests="3" failures="0" errors="0" time="12.82" skipped="0" timestamp="12-02-2024T17:33:52" hostname="ASUS - LAPTOP-86QR281O" id="Test Suites/posts/posts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\Documents\\Bismillah BFLP IT\\BOOTCAMP IT\\Katalon\\API\\Bootcamp QA - API\\katalonAPI\\Reports\\20240212_173347\\posts\\posts\\20240212_173347"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\Documents\\Bismillah BFLP IT\\BOOTCAMP IT\\Katalon\\API\\Bootcamp QA - API\\katalonAPI\\Reports\\20240212_173347\\posts\\posts\\20240212_173347\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-86QR281O"/>
+         <property name="hostAddress" value="172.16.213.211"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/posts/DEL ID 12" time="6.624" classname="Test Cases/posts/DEL ID 12" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:33:53 - [TEST_CASE][PASSED] - Test Cases/posts/DEL ID 12: Test Cases/posts/DEL ID 12
+
+12-02-2024T17:33:53 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("posts/DEL ID 12")): Send request and verify the response successfully
+
+12-02-2024T17:33:57 - [MESSAGE][INFO] - HAR: C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\API\Bootcamp QA - API\katalonAPI\Reports\20240212_173347\posts\posts\20240212_173347\requests\main\0.har
+
+12-02-2024T17:33:57 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T17:33:57 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T17:33:57 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T17:33:57 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T17:33:57 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T17:33:57 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T17:33:59 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/posts/DEL ID 12' .
+
+12-02-2024T17:33:59 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/posts/DEL ID 12' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/posts/GET ID 1" time="2.693" classname="Test Cases/posts/GET ID 1" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:33:59 - [TEST_CASE][PASSED] - Test Cases/posts/GET ID 1: Test Cases/posts/GET ID 1
+
+12-02-2024T17:33:59 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("posts/Get ID 1", ["page":"2"])): Send request and verify the response successfully
+
+12-02-2024T17:34:00 - [MESSAGE][INFO] - HAR: C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\API\Bootcamp QA - API\katalonAPI\Reports\20240212_173347\posts\posts\20240212_173347\requests\main\1.har
+
+12-02-2024T17:34:00 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T17:34:00 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T17:34:00 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T17:34:00 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T17:34:00 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T17:34:00 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T17:34:00 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "title", "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"): Verify element property value successfully
+
+12-02-2024T17:34:00 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:34:02 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/posts/GET ID 1' .
+
+12-02-2024T17:34:02 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/posts/GET ID 1' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/posts/POST ID 1" time="3.214" classname="Test Cases/posts/POST ID 1" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:34:02 - [TEST_CASE][PASSED] - Test Cases/posts/POST ID 1: Test Cases/posts/POST ID 1
+
+12-02-2024T17:34:02 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("posts/POST ID Clae", ["title":"ini", "body":"clae lagi", "userId":10])): Send request and verify the response successfully
+
+12-02-2024T17:34:03 - [MESSAGE][INFO] - HAR: C:\Users\ASUS\Documents\Bismillah BFLP IT\BOOTCAMP IT\Katalon\API\Bootcamp QA - API\katalonAPI\Reports\20240212_173347\posts\posts\20240212_173347\requests\main\2.har
+
+12-02-2024T17:34:03 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T17:34:03 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T17:34:03 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T17:34:03 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T17:34:03 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T17:34:03 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T17:34:05 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/posts/POST ID 1' .
+
+12-02-2024T17:34:05 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/posts/POST ID 1' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T17:33:52 - [TEST_SUITE][PASSED] - posts: Test Cases/posts/POST ID 1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
