@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>DEL posts 12</name>
+   <name>DEL ID 12</name>
    <tag></tag>
    <elementGuidId>4426df62-a071-4080-9bb7-aca6eb493484</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

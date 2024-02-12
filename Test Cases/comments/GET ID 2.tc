@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DEL ID 12</name>
+   <name>GET ID 2</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c44ecac1-42c3-49e7-9441-db8eff3f773d</testCaseGuid>
+   <testCaseGuid>e0daf792-65eb-47d6-b015-08dbb3709f45</testCaseGuid>
 </TestCaseEntity>
